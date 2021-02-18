@@ -27,6 +27,8 @@ header-includes:
 ---
 ## Introduction
 
+Cite like this [@einstein, @latexcompanion]
+
 ## Materials and methods
 
 ## Results
