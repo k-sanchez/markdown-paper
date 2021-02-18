@@ -5,7 +5,6 @@ output:
     keep_tex: true
     fig_caption: true
     latex_engine: pdflatex
-	pandoc_args: "--latex-engine-opt=--shell-escape"
 
 title: "A Pandoc Markdown Article Starter and Template"
 author:
