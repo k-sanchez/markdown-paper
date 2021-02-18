@@ -3,4 +3,4 @@ A MD template
 
 Compile with `make`
 
-Credits to: [Markus Hsi-Yang Frit](mhttps://github.com/mhyfritz) and [Steven V. Miller](http://svmiller.com/)
+Credits to: [Markus Hsi-Yang Fritz](https://github.com/mhyfritz) and [Steven V. Miller](http://svmiller.com/)
