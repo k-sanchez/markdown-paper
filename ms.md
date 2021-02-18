@@ -37,6 +37,8 @@ Cite like this [@einstein, @latexcompanion]
 
 ## References
 
+<div id="refs"></div> <!-- forzar referencias a esta ubicacion -->
+
 ## Tables
 
 ## Figures
