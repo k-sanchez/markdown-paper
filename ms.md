@@ -6,16 +6,14 @@ output:
     fig_caption: true
     latex_engine: pdflatex
 
-title: "A Pandoc Markdown Article Starter and Template"
+title: "Title"
 author:
-- name: Steven V. Miller
-  affiliation: Clemson University
-- name: Mary Margaret Albright
-  affiliation: Pendelton State University
-- name: Rembrandt Q. Einstein
-  affiliation: Springfield University
-abstract: "This document provides an introduction to R Markdown, argues for its..."
-keywords: "pandoc, r markdown, knitr"
+	- Author1
+	- Author2
+	- Author3
+	- Author4
+	- Author5
+abstract: "This document provides an introduction to R Markdown, argues for its...[keyword, keyword, kwyword]"
 geometry: margin=1in
 fontsize: 11pt
 # spacing: double
@@ -36,6 +34,8 @@ header-includes:
 ## Discusion
 
 ## References
+
+## Tables
 
 ## Figures
 
