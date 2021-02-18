@@ -25,6 +25,7 @@ link-citations: true
 header-includes:
 	- \usepackage{hyperref}
 	- \usepackage{graphicx}
+	- \usepackage{caption}
 ---
 ## Introduction
 
@@ -38,4 +39,4 @@ header-includes:
 
 ## Figures
 
-\includegraphics[width=\textwidth]{image.pdf}
+\includegraphics[width=\textwidth]{image.pdf}\captionof{figure}{caption}
