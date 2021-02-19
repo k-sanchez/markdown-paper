@@ -1,4 +1,4 @@
-# markdown_paper
+# markdown-paper
 A generic MD template
 
 Compile with:
