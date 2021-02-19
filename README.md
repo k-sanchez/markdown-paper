@@ -1,9 +1,6 @@
 # markdown-paper
-A generic MD template
+A generic MD template. Requires `pandoc`
 
-Compile with:
-  - `make`, to generate PDF output
-  - `make docx` to generate DOCX output
-  - `pandoc ms.md -o output.tex` to generate LaTeX output
+Compile with `pandoc ms.md -o ms.tex/pdf/docx`
 
 Credits to: [Markus Hsi-Yang Fritz](https://github.com/mhyfritz) and [Steven V. Miller](http://svmiller.com/)
