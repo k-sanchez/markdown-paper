@@ -1,5 +1,5 @@
 # markdown-paper
-A generic MD template. Requires `pandoc`
+A generic MD template. Requires [`pandoc`](https://pandoc.org/installing.html)
 
 Compile with `pandoc ms.md -o ms.tex/pdf/docx`
 
