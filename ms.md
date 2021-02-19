@@ -1,30 +1,32 @@
 ---
 output: 
-  pdf_document:
-    citation_package: natbib
-    keep_tex: true
-    fig_caption: true
-    latex_engine: pdflatex
-
-title: "Title"
+    pdf_document:
+      citation_package: natbib
+      keep_tex: true
+      fig_caption: true
+      latex_engine: pdflatex
+  
+title: "nice title"
 author:
-	- Author1
-	- Author2
-	- Author3
-	- Author4
-	- Author5
-abstract: "This document provides an introduction to R Markdown, argues for its...[keyword, keyword, kwyword]"
+	- Author from first affilitation¹
+	- Author from second affilitation²
+date:	¹First affiliation\newline
+	²Second affiliation
+
+abstract: "abstract text... [keywords]"
+
 geometry: margin=1in
 fontsize: 11pt
 # spacing: double
 bibliography: references.bib
-citation-style: nature.csl
+citation-style: nature.csl # cambiar de acuerdo al estilo deseado
 link-citations: true
 header-includes:
 	- \usepackage{hyperref}
 	- \usepackage{graphicx}
 	- \usepackage{caption}
 ---
+
 ## Introduction
 
 Cite like this [@einstein, @latexcompanion]
@@ -37,10 +39,10 @@ Cite like this [@einstein, @latexcompanion]
 
 ## References
 
-<div id="refs"></div> <!-- forzar referencias a esta ubicacion -->
+<div id="refs"></div> <!-- force references to this location and not at the end of the file as default -->
 
 ## Tables
 
 ## Figures
 
-\includegraphics[width=\textwidth]{image.pdf}\captionof{figure}{caption}
+\includegraphics[width=\textwidth]{image.pdf}\captionof{figure}{caption text} <!-- insert pdf image -->
