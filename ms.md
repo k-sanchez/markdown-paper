@@ -18,7 +18,6 @@ abstract: "abstract text... [keywords]"
 geometry: margin=1in
 fontsize: 11pt
 # spacing: double
-bibliography: references.bib
 citation-style: nature.csl # cambiar de acuerdo al estilo deseado
 link-citations: true
 header-includes:
